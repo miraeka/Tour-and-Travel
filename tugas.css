@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: "Garamont";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(53, 60, 61, 0.9);
+    position: fixed;
+    top: 0;
+
+  }
+  
+  .logo {
+    width: 60px;
+    height: 50px;
+    margin-top: 7px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 150px 0;
+    background-image: url(https://www.indonesia.travel/content/dam/indtravelrevamp/en/inspiration/travel-info/5-best-comfortable-hotels-in-banyuwangi-to-indulge-your-stay/846a3e53eb69c0e843ebd56a6afa2535a5682b7f-0bb1f.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    opacity: 0.5px;
+}
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .tour-wrapper {
+    height: 300px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .tour {
+    float: left;
+    width: 25%;
+  }
+  
+  .tour-icon img {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+  }
+
+  .btn {
+    padding-right: 12px 24px;
+    opacity: 0.8;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+  }
